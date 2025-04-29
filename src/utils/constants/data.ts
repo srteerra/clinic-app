@@ -1,4 +1,4 @@
-export const gameData = {
+export const gameData: any = {
   title: "Aventura Interactiva",
   description: "Un juego educativo con múltiples escenarios",
 

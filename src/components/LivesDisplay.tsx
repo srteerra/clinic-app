@@ -21,7 +21,7 @@ export default function LivesDisplay() {
       px={3}
       py={2}
     >
-      <HStack spacing={1}>
+      <HStack gap={1}>
         {Array.from({ length: maxLives }).map((_, index) => (
           <Icon
             key={index}
