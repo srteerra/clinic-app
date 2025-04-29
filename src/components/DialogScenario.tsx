@@ -11,7 +11,8 @@ export default function DialogScenario() {
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null)
   const typingIntervalRef = useRef<NodeJS.Timeout | null>(null)
 
-  const currentDialog = currentScenario.dialogs[currentScenario.currentDialogIndex]
+  const currentDialog = currentScenario?.dialogs?.[currentScenario.currentDialogIndex] ?? null
+  if (!currentDialog) return null
 
   const isMulti = currentDialog?.isMulti ?? false
   const options = currentDialog?.options ?? []
