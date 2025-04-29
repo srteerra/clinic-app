@@ -125,6 +125,22 @@ export const gameData: any = {
             correctAnswer: "b",
           },
         },
+        {
+          id: "hotspot6",
+          position: { x: 15, y: 76 },
+          answered: false,
+          selectedAnswer: "",
+          question: {
+            text: "¿Cuál es la importancia del equilibrio entre excitación e inhibición neuronal en el cerebro en desarrollo?",
+            options: [
+              { id: "a", text: "Facilita la generación de potenciales de acción en todas las neuronas.", value: "a" },
+              { id: "b", text: "Permite la formación de sinapsis exclusivamente excitatorias.", value: "b" },
+              { id: "c", text: "Es esencial para la neurogénesis, la plasticidad sináptica, la prevención de la excitotoxicidad y la maduración funcional de las neuronas.", value: "c" },
+              { id: "d", text: "Impide la eliminación de conexiones sinápticas innecesarias.", value: "d" },
+            ],
+            correctAnswer: "c",
+          },
+        },
       ],
     },
     {
@@ -366,6 +382,22 @@ export const gameData: any = {
               { id: "d", text: "Presión arterial y frecuencia cardíaca.", value: "d" },
             ],
             correctAnswer: "c",
+          },
+        },
+        {
+          id: "hotspot6",
+          position: { x: 10, y: 15 },
+          answered: false,
+          selectedAnswer: "",
+          question: {
+            text: "¿Por qué el uso prolongado del fenobarbital puede generar acidosis metabólica?",
+            options: [
+              { id: "a", text: "Porque inhibe la síntesis de bicarbonato en el hígado.", value: "a" },
+              { id: "b", text: "Porque sus metabolitos ácidos liberan protones (H⁺), consumen bicarbonato (HCO₃⁻) y exceden la capacidad de tamponamiento del organismo.", value: "b" },
+              { id: "c", text: "Porque reduce la ventilación alveolar, acumulando CO₂ en sangre.", value: "c" },
+              { id: "d", text: "Porque bloquea la reabsorción de bicarbonato en el intestino.", value: "d" },
+            ],
+            correctAnswer: "b",
           },
         },
       ],
