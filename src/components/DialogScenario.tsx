@@ -108,7 +108,7 @@ export default function DialogScenario() {
 
           {isMulti ? (
             <CheckboxGroup value={multiAnswers} onChange={handleMultiChange}>
-              <Stack gap{2}>
+              <Stack gap={2}>
                 {options.map((option) => (
                   <Checkbox key={option.id} value={option.value} colorScheme="teal">
                     {option.text}
